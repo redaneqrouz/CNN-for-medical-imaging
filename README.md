@@ -42,14 +42,20 @@ pip install imutils
 ```
 
 ## Entrainement et apprentissage de CNN 
+### Datasets et pre-traitement 
+pour l'apprentissage d'un réseaux de neurones il faut une base de données massive des images, les images médicales utilisés dans ce travail peuvent avoir des dimensions dépassent  80k*80k pour utiliser des telles images comme entrée d'un réseaux de neurones faut avoir des super machine avec des processeurs graphique comme Nvidia Titan X 
+d'ou la nécissité d'utiliser de découper ces images en imagettes de taille 28*28,32*32,64*64
 
+le CNN qu'on va construire prend en entrée un patch de taille 28*28 
+pour découper les grandes images en patchs: 
+```
+python split_oneTomany.py DOSSIER_SOURCE DOSSIER_DESTINATION
+```
+### CNN
+.. figure:: images/architecture.png
+    :scale: 65 %
 
-
-
-
-
-
-
-
+|br|
+|br|
 
 
