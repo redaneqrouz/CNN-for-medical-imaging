@@ -57,7 +57,8 @@ L'architecture De CNN se compose de deux ensembles de couches convolutionnelles,
 <figure>
     <img src="images/architecture.png" align="center"/>
 </figure>
-		figure 1: architecture CNN lenet
+					figure 1: architecture CNN lenet
+		
 nous allons implémenter cette architecture avec keras et TenserFlow
 
 cette architecture est Conçu à l'origine pour la classification des chiffres manuscrits, nous pouvons facilement l'étendre à d'autres types d'images également.
@@ -115,5 +116,6 @@ le resultat d'éxecution
 <figure>
     <img src="images/training.png" align="center"/>
 </figure>
+
 
 
