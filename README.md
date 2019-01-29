@@ -1,7 +1,7 @@
 # Classification d'images medical avec Keras et deep learning
+utilisation de CNN réseau de neurones conventionnels profonds pour la détection et la prédiction des tumeurs malignes et bénignes à partir des images médicales  
 
-l'entrainement d'un réseau neuronal convolutionnel profond (CNN) à partir de zéro est difficile car elle nécessite une grande quantité de données étiquetées (labellisé) et une grande expertise pour assurer une bonne convergence. Une alternative prometteuse est d'affiner un CNN qui a été préformé en utilisant, par exemple, un grand nombre d'images naturelles étiquetées. dans cette article nous allons vous proposer une architecture d'un CNN appliquée sur l'image médicals de la création jusqu'a la validation 
+## introduction 
+Au cours de la dernière décennie, la capacité des programmes informatiques d'extraire l'information des images s'est considérablement accrue. cette progression est du  aux réseaux neuronaux convolutionnels (CNNs), un type de réseau neuronal spécialisé dans le traitement des image. Depuis 2012, année où AlexNet a remporté le concours de reconnaissance visuelle à grande échelle ImageNet, les CNN ont constamment surpassé les techniques classiques d'apprentissage machine (p. ex. machines à vecteurs support, forêt aléatoire, k-voisins les plus proches). L'essentiel du travail de conception d'un algorithme ML classique consiste à choisir les caractéristiques appropriées. En revanche, un réseau neuronal profond prend des données brutes (éventuellement après quelques prétraitements) et apprend automatiquement les caractéristiques. 
+dans la suite de cet article nous allons vous proposer une architecture de CNN efficace pour la classification des images médicales 
 
-## 
-
- 
