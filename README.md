@@ -108,14 +108,26 @@ au top de fichier on importe les paquets requis qui nous permettent:
 * Instantier le réseau neuronal convolutif
 * entrainer le model
 
+Par la suite, nous procéderons à une certaine augmentation des données, ce qui nous permettra de générer des données de  "supplémentaires" en transformant aléatoirement les images d'entrée par rotation, zomm etc..
+
+```
+aug = ImageDataGenerator(rotation_range=30, width_shift_range=0.1,
+	height_shift_range=0.1, shear_range=0.2, zoom_range=0.2,
+	horizontal_flip=True, fill_mode="nearest")
+```
+
 pour lancer le script de l'apprentissage 
 ```
 python model --DOSSIER_IMAGES
 ```
-le resultat d'éxecution 
+
+le resultat d'éxecution est donnée dans la figure suivante
 <figure>
     <img src="images/training.png" align="center"/>
 </figure>
+figure 2 : plot de traning de model
 
+les ANN généralement ont besoin d'un processeur graphique, notamment pour les architectures profondes 
+le temps d'éxécution 
 
 
