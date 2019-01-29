@@ -57,6 +57,7 @@ L'architecture De CNN se compose de deux ensembles de couches convolutionnelles,
 <figure>
     <img src="images/architecture.png" align="center"/>
 </figure>
+		figure 1: architecture CNN lenet
 nous allons implémenter cette architecture avec keras et TenserFlow
 
 cette architecture est Conçu à l'origine pour la classification des chiffres manuscrits, nous pouvons facilement l'étendre à d'autres types d'images également.
@@ -96,5 +97,15 @@ model.add(Dense(classes))
 model.add(Activation("softmax"))
 return model
 ```
+
+## Entrainement et apprentissage de CNN
+
+pour l'entrainement on va faire appel au model.py 
+au top de fichier on importe les paquets requis qui nous permettent:
+* Charger les imagesà partir de mémoire
+* Pré-traitement des images
+* Instantier le réseau neuronal convolutif
+* entrainer le model
+
 
 
