@@ -107,5 +107,13 @@ au top de fichier on importe les paquets requis qui nous permettent:
 * Instantier le réseau neuronal convolutif
 * entrainer le model
 
+pour lancer le script de l'apprentissage 
+```
+python model --DOSSIER_IMAGES
+```
+le resultat d'éxecution 
+<figure>
+    <img src="images/plot.png" align="center"/>
+</figure>
 
 
