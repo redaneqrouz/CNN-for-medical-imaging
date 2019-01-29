@@ -113,7 +113,7 @@ python model --DOSSIER_IMAGES
 ```
 le resultat d'éxecution 
 <figure>
-    <img src="images/plot.png" align="center"/>
+    <img src="images/training.png" align="center"/>
 </figure>
 
 
