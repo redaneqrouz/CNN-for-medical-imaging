@@ -136,4 +136,7 @@ A l'aide de matplotlib, nous construisons la courbe d'avancement d'entrainement,
 <figure>
     <img src="images/plot2.png" align="center"/>
 </figure>
+figure 3 : plot de perte et de précision de l'entraînement sur malign/benign
+
+## Test et validation
 
