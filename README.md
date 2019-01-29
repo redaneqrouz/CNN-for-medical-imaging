@@ -59,4 +59,41 @@ L'architecture De CNN se compose de deux ensembles de couches convolutionnelles,
     </figure>
 nous allons implémenter cette architecture avec keras et TenserFlow
 
+cette architecture est Conçu à l'origine pour la classification des chiffres manuscrits, nous pouvons facilement l'étendre à d'autres types d'images également.
+l'archietecture de CNN qu'on va utiliser est dans lenet.py 
+*code exlication 
+
+Les premieres lignes  gèrent l'importation de nos paquets Python requis:
+La classe Conv2D réalise l'operation de convolution. 
+```
+class LeNet:
+	@staticmethod
+	def build(width, height, depth, classes):
+```
+la classe Lenet contient la méthode static de construction, a chaque fois j'appelle la classe il sera appelé automatiquement.
+la méthode build a 4 paramétres
+* width : La largeur de nos images d'entrée
+* height : La hauteur des images d'entrée
+* depth : Le nombre de canaux dans nos images d'entrée 
+* classes : Le nombre total de classes que nous voulons reconnaître (dans notre cas, deux: malign, benign)
+```
+# les 3 trois premiers couches CONV => RELU => POOL
+model.add(Conv2D(20, (5, 5), padding="same",
+	input_shape=inputShape))
+model.add(Activation("relu"))
+model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+
+# les 3 trois douxieme couches CONV => RELU => POOL
+model.add(Conv2D(50, (5, 5), padding="same"))
+model.add(Activation("relu"))
+model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+
+# utilisation de fontion d'activation softmax 
+model.add(Flatten())
+model.add(Dense(500))
+model.add(Activation("relu"))
+model.add(Dense(classes))
+model.add(Activation("softmax"))
+return model
+```
 
