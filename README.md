@@ -52,11 +52,8 @@ pour découper les grandes images en patchs:
 python split_oneTomany.py DOSSIER_SOURCE DOSSIER_DESTINATION
 ```
 ### CNN
-
-.. figure:: images/architecture.png
-    :scale: 65 %
-
-|br|
-|br|
+    <figure>
+        <img src="images/architecture.png" align="center"/>
+    </figure>
 
 
