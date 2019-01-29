@@ -128,6 +128,8 @@ le resultat d'éxecution est donnée dans la figure suivante
 figure 2 : plot de traning de model
 
 les ANN généralement ont besoin d'un processeur graphique, notamment pour les architectures profondes 
-le temps d'éxécution 
+l'apprentissage a fait un temps d'exécution de 2H09 sur mon PC de configuration :
+- 4 processeurs en CPU GenuineIntel
+- Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz
 
 
