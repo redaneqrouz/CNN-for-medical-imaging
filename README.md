@@ -6,10 +6,10 @@ Au cours de la dernière décennie, la capacité des programmes informatiques d'
 dans la suite de cet article nous allons vous proposer une architecture de CNN efficace pour la classification des images médicales 
 
 le reste de l'article est diviser en trois parties 
-* envirenement de travail 
-* entrainement et apprentissage de CNN 
-* test et validation 
-* échantillonage 
+* Envirenement de travail 
+* Entrainement et apprentissage de CNN 
+* Test et validation 
+* Echantillonage 
 
 
 ## Envirenement de travail
@@ -29,3 +29,27 @@ installer keras sous anaconda envirenement
 pip install keras
 ```
 keras utilise TenserFlow en background qui est déja installer sous anaconda 
+
+installation de openCV 
+```
+conda install -c conda-forge opencv
+```
+
+installation de la librairies imutils
+
+```
+pip install imutils
+```
+
+## Entrainement et apprentissage de CNN 
+
+
+
+
+
+
+
+
+
+
+
