@@ -132,4 +132,8 @@ l'apprentissage a fait un temps d'exécution de 2H09 sur mon PC de configuration
 - 4 processeurs en CPU GenuineIntel
 - Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz
 
+A l'aide de matplotlib, nous construisons la courbe d'avancement d'entrainement, validation 
+<figure>
+    <img src="images/plot2.png" align="center"/>
+</figure>
 
