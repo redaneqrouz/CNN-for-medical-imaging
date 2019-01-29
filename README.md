@@ -53,10 +53,8 @@ python split_oneTomany.py DOSSIER_SOURCE DOSSIER_DESTINATION
 ```
 ### CNN
 L'architecture De CNN se compose de deux ensembles de couches convolutionnelles, d'activation et de mise en groupe(pooling), suivis d'une couche entièrement connectée, d'une autre entièrement connectée et enfin d'un classificateur softmax.
-.. raw:: html
-    <figure>
-        <img src="images/architecture.png" align="center"/>
-    </figure>
+.. figure:: images/architecture.png
+    :align: center
 nous allons implémenter cette architecture avec keras et TenserFlow
 
 
