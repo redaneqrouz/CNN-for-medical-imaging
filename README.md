@@ -140,3 +140,4 @@ figure 3 : plot de perte et de précision de l'entraînement sur malign/benign
 
 ## Test et validation
 
+pour tester notre model sur une imagette de taille 28*28 pour vérifeir s'il classifie bien les images 
