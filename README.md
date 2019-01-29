@@ -15,7 +15,7 @@ le reste de l'article est diviser en trois parties
 ## Envirenement de travail
 pour l'envirenement de travail j'ai utulisé ANACONDA et GOOGLE COLAB.
 ANACONDA est  un envirenement intégré de l'apprentissage machine disponible sur Linux, Windows et Mac OS X.
-GOOGLE COLAB  est un environnement de notebook Jupyter gratuit qui ne nécessite aucune configuration et qui s'exécute entièrement dans le cloud. [Pour en savoir plus](http://www.ac-grenoble.fr/ugine/m/?p=271)
+GOOGLE COLAB  est un environnement de notebook Jupyter gratuit qui ne nécessite aucune configuration et qui s'exécute entièrement dans le cloud [Pour en savoir plus](http://www.ac-grenoble.fr/ugine/m/?p=271).
 pour installer ANACONDA voir ce [tutoriel](http://www.ac-grenoble.fr/ugine/m/?p=271)
 
 pour lancer ANACONDA sur linux: 
