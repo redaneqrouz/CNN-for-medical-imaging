@@ -146,5 +146,5 @@ pour tester notre model sur une imagette de taille 28*28 pour vérifeir s'il cla
 </figure>
 
 <figure>
-        <img src="images/outputx.png" align="rignt"/>
+        <img src="images/output.png" align="rignt"/>
 </figure>
