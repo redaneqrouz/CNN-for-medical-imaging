@@ -142,9 +142,9 @@ figure 3 : plot de perte et de précision de l'entraînement sur malign/benign
 
 pour tester notre model sur une imagette de taille 28*28 pour vérifeir s'il classifie bien les images 
 <figure>
-        <img src="images/pos.png" align="left"/>
+        <img src="images/pos.png" align="left" width="100px height="100px" "/>
 </figure>
 
 <figure>
-        <img src="images/output.png" align="rignt"/>
+        <img src="images/output.png" align="rignt" width="100px height="100px"/>
 </figure>
