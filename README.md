@@ -145,6 +145,7 @@ lancer le code suivant sur une imagette n'appartient pas a l'ensemble des imaget
 ```
 python test_model.py --model YOUR_MODEL --image PATH_IMAGE
 ```
+sinon vous trouvez un modele pres compilé parmi les fichier 'model'
 
 <figure>
         <img src="images/pos.png" align="left" width="200px height="200px" "/>
@@ -154,5 +155,7 @@ python test_model.py --model YOUR_MODEL --image PATH_IMAGE
         <img src="images/output.png" align="rignt" width="200px height="200px"/>
 </figure>
 									      
-figure 4 : resultat de model sur une imagette 28*28 pixels
+figure 4 : resultat de réseaux sur une imagette 28*28 pixels
 
+## Echantillonage
+c'est pas encore finis !!!!!
