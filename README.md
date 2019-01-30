@@ -166,13 +166,16 @@ python prob_map.py MODEL IMAGE
 ```
 le script prend en entrée deux paramétre le model compilé de réseaux et l'image médical a classifier 
 voici les résultats
-
+###les taches en jaunes signifié les regions invasive par les tumeurs 
 <figure>
-        <img src="images/img-neg.png" align="left" width="400px height="400px""/>
+        <img src="images/img-neg.png" align="left" width="450px height="450px""/>
 </figure>
 
 <figure>
-        <img src="images/output-img-neg.png" align="rignt" width="400px height="400px" "/>
+        <img src="images/output-img-neg.png" align="rignt" width="450px height="450px" "/>
 </figure>
 
 figure 5: image negative et le résultat de model
+
+
+
