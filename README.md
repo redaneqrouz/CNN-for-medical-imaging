@@ -158,4 +158,21 @@ sinon vous trouvez un modele pres compilé parmi les fichier 'model'
 figure 4 : resultat de réseaux sur une imagette 28*28 pixels
 
 ## Echantillonage
-c'est pas encore finis !!!!!
+dans cette partie je vais vous montrer la méthode d'échantillonnage régulier décrit dans l'article [HASHI](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196828)
+la méthode consiste a parcourir l'image WSI patch par patch par un itérateur ou window-sliding 
+pour lancer le script 
+```
+python prob_map.py MODEL IMAGE
+```
+le script prend en entrée deux paramétre le model compilé de réseaux et l'image médical a classifier 
+voici les résultats
+
+<figure>
+        <img src="images/img-neg.png" align="left" "/>
+</figure>
+
+<figure>
+        <img src="images/output-img-neg.png" align="rignt" "/>
+</figure>
+
+figure 5: image negative et le résultat de model
