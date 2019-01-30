@@ -168,11 +168,11 @@ le script prend en entrée deux paramétre le model compilé de réseaux et l'im
 voici les résultats
 
 <figure>
-        <img src="images/img-neg.png" align="left" "/>
+        <img src="images/img-neg.png" align="left" width="500px height="500px""/>
 </figure>
 
 <figure>
-        <img src="images/output-img-neg.png" align="rignt" "/>
+        <img src="images/output-img-neg.png" align="rignt" width="500px height="500px" "/>
 </figure>
 
 figure 5: image negative et le résultat de model
